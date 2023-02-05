@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto">
+    <style>
+        * {
+            font-family: Roboto !important;
+        }
+
+        h2,h3,h4,h5{
+            color:rgba(95, 36, 159);
+        }
+
+        #hero {
+            background: url("./images/bangalore.jpg") repeat scroll center center/cover;
+            height: 100vh;
+            width: 100%;
+        }
+
+        #hero .hero-content {
+            margin-top: 70vh;
+            margin-left: 5vh;
+            text-align: left;
+            width: 70%;
+            background-color: rgba(95, 36, 159);
+            color: white;
+            border-top-right-radius: 5%;
+        }
+
+        #palace {
+            background: url("./images/palace.jpg") repeat scroll center center/cover;
+            height: 100vh;
+            width: 100%;
+        }
+
+        #shiva {
+            background: url("./images/shiva.jpg") repeat scroll center center/cover;
+            height: 100vh;
+            width: 100%;
+        }
+
+        #cubbon {
+            background: url("./images/Cubbon.jpeg") repeat scroll center center/cover;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .section-title{
+            line-height: 200%;
+        }
+        .image-container{
+            display:flex;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            align-content: flex-end;
+            }        
+        .caption{
+            color: white;
+            margin-left: 20px;
+        }
+
+        ul {
+            padding-left: 1em !important;
+            margin-left: 1em;
+        }
+
+        li {
+            list-style-type: disc !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="hero-content">
+                    <p class="h2">Welcome to Bengaluru (Bangalore)</p>
+                    <p>India’s IT capital and a
+                        thriving
+                        cultural-historical centre</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="overview">
+        <div id="palace" class="image-container">
+            <p class="caption">Bangalore Palace</p>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title">Overview of Bengaluru</h2>
+                <p>Bengaluru (formerly known as Bangalore) is the capital city of the Indian state of Karnataka, and the
+                    country’s fifth most populous city. Widely referred to as the IT capital of the country, it has
+                    about
+                    2.5 million IT professionals and “exports” many to other countries. Besides being India’s aviation
+                    hub
+                    with giants like Boeing, Airbus and Goodrich, it also houses flourishing industries that have a
+                    global
+                    impact — manufacturing, biotechnology, sericulture and others. </p>
+                <p>Bengaluru has emerged as a seat of learning and has many renowned educational institutes that enrol
+                    students from all over the country and abroad. Adding to the city’s charm is a thriving theatre,
+                    music
+                    and restaurant culture. </p>
+                <h4>Quick facts</h4>
+                <ul>
+                    <li>The city’s name came about in 1120, when Veera Ballala of the Hoysala Empire called it Benda
+                        Kaalu
+                        Ooru (land of boiled beans), after a poor woman fed him beans in the forest when he was lost
+                        there.
+                    </li>
+                    <li>It was one of the first cities in India to receive electricity, in 1905. </li>
+                    <li>Most of the Indian scientists nominated for the Nobel Prize have hailed from Bengaluru. </li>
+                    <li>Bengaluru has been named the next decade’s fastest growing city by Forbes magazine. </li>
+                </ul>
+
+                <h2 id="bengaluru-climate">Bengaluru climate</h2>
+                <p>Situated at a height of over 900 metres (3,000 feet) above sea level, the city enjoys pleasant
+                    weather
+                    throughout the year, with April being the hottest month and January the coldest. Rainfall occurs
+                    from
+                    August to October, with occasional thunderstorms. </p>
+                <div>
+                    <h2 class="display-1">30ºC </h2>
+                    <p>(85ºF) Average high temperature</p>
+                </div>
+                <div>
+                    <h2 class="display-1">19ºC </h2>
+                    <p>(67ºF) Average low temperature</p>
+                </div>
+                <div>
+                    <h2 class="display-1">63% </h2>
+                    <p>Average relative humidity</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="interest">
+        <div id="shiva" class="image-container">
+            <p class="caption">Shiva Temple</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title">Places of interest</h2>
+                <h4>Bengaluru Palace</h4>
+                <p>Spanning over 450 acres and surrounded by a vast garden, the palace was built in 1887 in Tudor-style
+                    architecture, with fortified towers and interiors decorated with elegant wood carvings and floral
+                    motifs. Fun World is an amusement park situated within the palace grounds. </p>
+                <h4 id="shiva-temple">Shiva Temple</h4>
+                <p>A 25 metre (65 foot)-high statue of Lord Shiva carved in white marble stands tall here and is visited
+                    by
+                    many pilgrims, as is a 10 metre (32 foot)-high statue of Lord Ganapati also situated here. </p>
+                <h4>Lalbagh Botanical Garden</h4>
+                <p>Lalbagh houses India’s largest collection of tropical plants, has a lake and is home to many species
+                    of
+                    birds. It also has the Lalbagh Rock, one of the oldest rock formations on earth, dating back 3,000
+                    million years. </p>
+                <h4>Vidhana Soudha</h4>
+                <p>Built in 1954, this is the state legislature of Karnataka, and the largest legislative building in
+                    India.
+                    Its construction style is described as Mysore NeoDravidian and incorporates elements of
+                    Indo-Saracenic
+                    and Dravidian styles. </p>
+                <h4>Cubbon Park</h4>
+                <p>Situated in the heart of the city, the park was laid out in 1864. Spread over 300 acres, the park
+                    houses
+                    more than 6,000 indigenous and exotic botanical species. There is also a library situated within the
+                    park. </p>
+                <h4>Tipu’s Summer Palace</h4>
+                <p>Also known as Dariya Daulat Palace, the elegant Indo-Islamic summer residence of Tipu Sultan is
+                    notable
+                    for its teak pillars and ornamental frescoes. The site has a small museum showcasing his belongings,
+                    administration and a painting of his grand throne </p>
+
+            </div>
+        </div>
+    </div>
+    <div id="dining">
+        <div id="cubbon" class="image-container">
+            <p class="caption">Cubbon Park</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title">Dining in Bengaluru</h2>
+                <p>Socialising while eating out is one of the favourite pastimes of Bengaluruans, and they enjoy
+                    exploring
+                    new restaurants and cuisines as the city has so much to offer. Everything from fine dining to quaint
+                    cafes to budget eateries offering simple yet tasty food can be found here. The city is home to the
+                    largest number of breweries and pubs in Asia. </p>
+                <p>While visiting, some of the restaurants to note: </p>
+                <ul>
+                    <li>Windmills Craftworks, Whitefield (fine dining/brewery) </li>
+                    <li>Koshy’s, St. Mark’s Road (breakfast/ brunch/Old World charm) </li>
+                    <li>46 Ounces Brewgarden, Electronic City Phase 1 (brewery/ buffet/fine dining </li>
+                </ul>
+                <h2 class="section-title">Bengaluru shopping</h2>
+                <p><strong>Cauvery Arts &amp; Crafts Emporium</strong> is a good place for souvenir shopping and
+                    <strong>Commercial Street, MG Road and Brigade Road</strong> for street shopping. The city has many
+                    malls and shopping arcades such as <strong>Forum, Orion, Garuda, Phoenix, VR and UB City</strong>,
+                    catering to shoppers from all over the world.
+                </p>
+                <h2 class="section-title">DXC sites in Bengaluru</h2>
+                <h5>RGA Tech Park</h5>
+                <p>DXC/EIT RGA Tech Park Block - 3 Survey No. 31/1 Chikkannhellli Village, Varthur Hobli, Sarjapur Main
+                    Road, Bangalore East Taluk </p>
+                <h5>Maruthi Concorde Tech Park - Electronic City</h5>
+                <p>Survey No 30/3, Maruthi Concorde Business Park, Hosur Road, Begur Hobli, Hosur Main Road, Konappana
+                    Agrahara Village </p>
+                <h5>EC 1 Campus - HP Ave 39/40, Hosur Road</h5>
+                <p>HP Avenue, 39/40, Electronics City Phase 1, Bengaluru 560100 </p>
+                <h5>Kalyani Platina - Magnolia</h5>
+                <p>Ground, 1st, 2nd, 3rd &amp; 4th Floors, Survey No. 1, 6 &amp; 24, Kundalahalli Village, K.R. Puram,
+                    Hobli
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
